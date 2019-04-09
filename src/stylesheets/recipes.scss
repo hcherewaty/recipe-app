@@ -1,1 +1,11 @@
+.recipes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
+@media (max-width: 580px) {
+    .recipes {
+        display: block;
+    }
+}
