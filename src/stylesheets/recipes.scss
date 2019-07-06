@@ -6,6 +6,8 @@
 
 @media (max-width: 580px) {
     .recipes {
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
