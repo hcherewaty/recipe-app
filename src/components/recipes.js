@@ -7,7 +7,7 @@ class RecipeList extends Component {
 
     render() {
         const recipes = this.props.recipes.map( (r, idx) => (
-            <Recipe key={idx} {...r} />
+            <Recipe key={r.id} {...r} />
         ));
 
         return (
