@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import '../stylesheets/form.scss';
 
 class RecipeInput extends Component {
     static defaultProps = {
@@ -147,7 +148,7 @@ class RecipeInput extends Component {
             >
               SAVE
             </button>
-            
+
           </form>
         </div>
       )
